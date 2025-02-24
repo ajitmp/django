@@ -192,3 +192,10 @@ def resolve_url(to, *args, **kwargs):
 
     # Finally, fall back and assume it's a URL
     return to
+
+
+# Code from tutorial https://docs.djangoproject.com/en/5.0/intro/contributing/
+
+
+def make_toast():
+    return "toast"
